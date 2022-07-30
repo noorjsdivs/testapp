@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@layer components {
+  .link {
+    @apply cursor-pointer hover:bg-yellow-500 rounded-md border-transparent px-4 py-2 transition-all duration-300;
+  }
+  .purchaseLink {
+    @apply border border-black w-32 h-10 rounded-full text-center flex gap-2 justify-center hover:bg-yellow-500 cursor-pointer items-center;
+  }
+  .buttonWhite {
+    @apply w-auto bg-white px-8 py-4 rounded-full border border-black hover:bg-blue-700 hover:text-white transition-all duration-300;
+  }
+  .buttonBlue {
+    @apply w-auto bg-blue-700 text-white px-8 py-4 border border-black rounded-full hover:bg-white hover:text-black transition-all duration-300;
+  }
+  .footerButtonBlue {
+    @apply w-auto bg-blue-700 font-bodyFont font-semibold text-white px-8 py-2 border border-black rounded-full hover:bg-white hover:text-black transition-all duration-300;
+  }
+  .footerButtonWhite {
+    @apply w-auto bg-white font-bodyFont font-semibold text-black px-8 py-2 border border-black rounded-full hover:bg-blue-700 hover:text-white transition-all duration-300;
+  }
+}
