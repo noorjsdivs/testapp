@@ -25,7 +25,6 @@ const Banner = () => {
           <div>
             <h4 className="font-titleFont text-2xl font-medium text-center mb-5">
               <span ref={typeTarget}></span>
-              {/* <span ref={typeTarget}></span> */}
             </h4>
           </div>
           <div className="mb-5">

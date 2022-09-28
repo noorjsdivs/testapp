@@ -6,7 +6,7 @@
 
 @layer components {
   .link {
-    @apply cursor-pointer hover:bg-yellow-500 rounded-md border-transparent px-4 py-2 transition-all duration-300;
+    @apply cursor-pointer hover:bg-yellow-500 rounded-md border-transparent px-4 py-2 transition-all duration-300 capitalize;
   }
   .purchaseLink {
     @apply border border-black w-32 h-10 rounded-full text-center flex gap-2 justify-center hover:bg-yellow-500 cursor-pointer items-center;
@@ -22,5 +22,11 @@
   }
   .footerButtonWhite {
     @apply w-auto bg-white font-bodyFont font-semibold text-black px-8 py-2 border border-black rounded-full hover:bg-blue-700 hover:text-white transition-all duration-300;
+  }
+  .contactInput {
+    @apply w-2/3 py-2 rounded-md px-2 font-bodyFont text-[16px];
+  }
+  .primeButton {
+    @apply w-2/3 py-3 rounded-lg font-titleFont text-lg font-bold cursor-pointer hover:bg-blue-700 transition duration-300 hover:text-white bg-white mt-4;
   }
 }
